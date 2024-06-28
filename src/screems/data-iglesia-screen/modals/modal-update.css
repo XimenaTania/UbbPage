@@ -1,0 +1,16 @@
+.modal-dialog-centered {
+    max-width: 80% !important;
+}
+
+/*.modal-content {*/
+/*    max-width: 800rem !important;*/
+/*    width: 100% !important;*/
+/*    background: #FFF5EB !important;*/
+/*}*/
+
+.button {
+    align-self: center;
+    width: 300px;
+    font-size: 12px;
+    padding: 4px;
+}

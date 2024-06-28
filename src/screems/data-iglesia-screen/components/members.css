@@ -1,0 +1,138 @@
+.three-column-grid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.section-information {
+    gap: 30px;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-item {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputSearch {
+    background: transparent !important;
+    flex-grow: 1;
+}
+
+.cardheader {
+    flex-grow: 1;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    height: 54px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border:1px solid #fff;
+    flex-direction: row;
+    background: #FFF5EB;
+}
+
+
+.cardMembers {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    border:1px solid #fff;
+    flex-direction: column;
+    background: #FFF5EB;
+
+    .line-bottom {
+        width: 100%;
+        height: 16px;
+        background: #FFD2A4;
+    }
+
+    .body-card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 16px;
+
+        .dataMembers {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            .dataPerson {
+                flex-grow: 1;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+
+                .dataPersonTitle {
+                    color: #DD9945;
+                    font-weight: bold;
+                    font-size: 12px;
+                }
+
+                .dataPersonName {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .dateAddress {
+                    font-size: 12px;
+                }
+
+                .dateYear {
+                    display: flex;
+                    gap: 5px;
+                    flex-direction: row;
+                    & label {
+                        flex-grow: 1;
+                    }
+                }
+            }
+
+            .dateMember {
+                font-weight: bold;
+            }
+        }
+
+
+
+        .content {
+            font-size: 12px;
+        }
+
+        .button {
+            align-self: flex-end;
+            width: 100px;
+            font-size: 12px;
+            padding: 4px;
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    background: #252525 !important;
+}
+
+.dropdownContent {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+    .dropdownContentTitle {
+        flex-grow: 1;
+        color: #cccccc;
+    }
+}
